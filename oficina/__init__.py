@@ -8,5 +8,6 @@ from .atendimento import VeiculoEspera, GerenciadorFila
 from .componentes import Componente, ArvoreComponentes
 from .ordem_servico import OS, GerenciadorOS
 from .pagamento import Pagamento, GerenciadorPagamento
+from .sistema import SistemaOficina
 
-__all__ = ['Cliente', 'Veiculo', 'GerenciadorClientes', 'Produto', 'Lote', 'GerenciadorEstoque', 'VeiculoEspera', 'GerenciadorFila', 'Componente', 'ArvoreComponentes', 'OS', 'GerenciadorOS', 'Pagamento', 'GerenciadorPagamento']
+__all__ = ['Cliente', 'Veiculo', 'GerenciadorClientes', 'Produto', 'Lote', 'GerenciadorEstoque', 'VeiculoEspera', 'GerenciadorFila', 'Componente', 'ArvoreComponentes', 'OS', 'GerenciadorOS', 'Pagamento', 'GerenciadorPagamento', 'SistemaOficina']
